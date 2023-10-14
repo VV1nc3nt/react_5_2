@@ -2,9 +2,10 @@
  * Returns news block (Top of the page)
  * @returns (
  *  <News>
- *    <NewsHeader />
+ *    <NewsHeader main={} extra={} extraLink={} recommendations={} recLink={} />
  *    <NewsList />
  *    <StockQuotes />
+ *    <NewsAd image={} link={} linkText={} adText={} />
  *  </News>
  * )
  */
