@@ -2,7 +2,7 @@
  * Returns news block (Top of the page)
  * @returns (
  *  <News>
- *    <NewsHeader main={} extra={} extraLink={} recommendations={} recLink={} />
+ *    <NewsHeader main={} mainLink={} extra={} extraLink={} recommendations={} recLink={} />
  *    <NewsList />
  *    <StockQuotes />
  *    <NewsAd image={} link={} linkText={} adText={} />
@@ -19,7 +19,7 @@ export default function News() {
   return (
     <div className="news">
       <div className="news-block">
-        <NewsHeader main="Сейчас в СМИ" extra="в России" extraLink="" recommendations="Рекомендуем" recLink="" />
+        <NewsHeader main="Сейчас в СМИ" mainLink="" extra="в России" extraLink="" recommendations="Рекомендуем" recLink="" />
         <NewsList />
         <StockQuotes />
       </div>
