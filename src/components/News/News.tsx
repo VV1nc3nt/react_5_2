@@ -3,8 +3,7 @@
  * @returns (
  *  <News>
  *    <NewsHeader />
- *    <NewsItem logo={} title={} url={} />
- *    ...
+ *    <NewsList />
  *    <StockQuotes />
  *  </News>
  * )
